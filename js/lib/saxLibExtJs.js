@@ -44,7 +44,7 @@ var posFunzioniCaller = 'ajax/funzioni/'; // Posizione delle funzioni per il cal
  * @param posCaller posizione del caller
  * @param posFunzioni posizione delle funzioni
  */
-function ajaxCallerExt(fileFunzioni, funzione, parametri, funzSuccess, funzError, tipo, posCaller, posFunzioni)
+function ajaxCaller(fileFunzioni, funzione, parametri, funzSuccess, funzError, tipo, posCaller, posFunzioni)
 {
 	// Gestisco il tipo di chiamata da eseguire diversa da quella di default
 	if(!tipo)
